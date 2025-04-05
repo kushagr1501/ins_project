@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const crypto = require('crypto');
 const mongoose = require('mongoose');
 const cors = require('cors');
-
+require('dotenv').config()
 const app = express();
 
 // Middleware
@@ -12,7 +12,7 @@ app.use(bodyParser.json({ limit: '50mb' }));
 app.use(bodyParser.urlencoded({ extended: true, limit: '50mb' }));
 
 // MongoDB connection
-mongoose.connect('mongodb://127.0.0.1:27017/secureDB', {
+mongoose.connect(process.env.MONGODBURI, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => console.log('Connected to MongoDB'))

@@ -1,0 +1,52 @@
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+turbo-debug.log*
+
+# Dependency directories (ignore all node_modules anywhere)
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment files (backend & frontend)
+client/.env
+server/.env
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE files
+.vscode/
+.idea/
+
+# Cache and build files
+client/build/
+server/dist/
+.next/
+.cache/
+turbo/
+
+# Coverage files
+coverage/
+.nyc_output/
+
+# MongoDB dumps (just in case)
+*.dump
+*.bson
+*.json
+
+# Misc
+*.log
+*.swp
+*.swo
+*.bak
+*.orig
+*.tmp
+
+# Optional: If you add Docker
+docker-compose.override.yml
+.dockerignore

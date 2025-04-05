@@ -1,10 +1,16 @@
-# 🔐 INS Project - Secure Data Handling with RSA Encryption and Digital Signatures
+# 🔐  Secure Data Handling with RSA Encryption and Digital Signatures
 
 This project implements a secure system for handling sensitive messages using **RSA encryption** and **digital signatures**. It ensures that messages are:
 
 - Kept private
 - Cannot be modified without detection
 - Verified as coming from a trusted source
+
+## 🎥 Video Demo
+
+Watch a demo of the secure messaging workflow in action:  
+[📽️ Click here to watch the video](https://drive.google.com/drive/folders/1Dn5laNc4_6VEFF1L1kXEOW2aqXsjhJ86?usp=sharing)
+
 
 ## 📌 Abstract
 
@@ -50,11 +56,6 @@ This mechanism ensures confidentiality, authenticity, and integrity of messages 
 - The user verifies the signature using the **backend’s public key**.
 - If verified, the user **decrypts the message** using their **private key**.
 - This confirms message authenticity and integrity.
-
-### ✅ Guarantees
-- **Privacy** – Only the intended user can read the message.
-- **Integrity** – Any modification is detected.
-- **Authenticity** – Backend is verified via its public key.
 
 ---
 
@@ -102,17 +103,6 @@ Access the app at `http://localhost:3000` (or your configured port).
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Here's how:
-
-1. Fork the repo
-2. Create your branch (`git checkout -b feature-name`)
-3. Commit changes (`git commit -m 'Added feature'`)
-4. Push (`git push origin feature-name`)
-5. Open a Pull Request
-
----
 
 ## 📾 License
 

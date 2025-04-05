@@ -44,7 +44,7 @@ Watch a demo of the secure messaging workflow in action:
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** JavaScript, HTML, CSS
+- **Frontend:** ReactJS
 - **Backend:** Node.js (with Express)
 - **Security:** RSA encryption, Digital signatures
 - **Deployment:** Vercel

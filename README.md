@@ -51,7 +51,6 @@ Watch a demo of the secure messaging workflow in action:
 
 ---
 
-## 📅 Getting Started
 
 ### Prerequisites
 - Node.js and npm installed
